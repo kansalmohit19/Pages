@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    background-color: #102131;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container-header {
+    display: flex; /* Use flexbox to arrange items */
+    align-items: center; /* Center items vertically */
+}
+.container-header img {
+    margin-right: 10px; /* Add some space between the image and text */
+}
+.container-header h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subheader-text {
+    color: #fff;
+    margin-top: 30px;
+    font-size: large;
+}
+
+.body-text {
+    color: #fff;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.email-form, .otp-verification {
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 100%;
+    max-width: 580px;
+    padding: 10px;
+    background-color: #3b4c59;
+    margin-bottom: 20px;
+    border: 1px solid #3b4c59;
+    border-radius: 5px;
+    color: #fff;
+}
+::placeholder {
+    color: #979ea6;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 580px;
+    padding: 10px;
+    background-color: #3b4c59;
+    margin-bottom: 20px;
+    border: 1px solid #3b4c59;
+    border-radius: 5px;
+    color: #fff;
+}
+::placeholder {
+    color: #979ea6;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #E1E1E1;
+    color: #212121;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E1E1E195;
+    border: 1px solid #E1E1E195;
+    border-radius: 5px;
+}
+
+#message {
+    color: red;
+    font-weight: bold;
+}
